@@ -13,7 +13,7 @@ class CreateEmployees < ActiveRecord::Migration[6.0]
       t.string :linkedin
       t.string :tweeter
       t.text :about_me
-      t.stringinterests :technologies
+      t.string :technologies
 
       t.timestamps
     end
