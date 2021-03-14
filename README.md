@@ -2,6 +2,8 @@
 
 This is backend API for building EntryHire. This app is geared toward people who are recently graduated from Bootcamp schools and looking to get their hands dirty building projects for companies who have none to minimal budget but are willing to be flexible and give chance for new grads to prove themselves that they can build amazing things. They can even set prize upon successful deployment of the new app.
 
+Created the session controller and namespacing for 1st version
+
 Things you may want to cover:
 
 - Ruby version
