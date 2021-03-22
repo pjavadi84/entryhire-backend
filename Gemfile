@@ -42,6 +42,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'bcrypt', '~> 3.1', '>= 3.1.16'
   gem 'rack-cors', :require => 'rack/cors'
+  gem 'pry', '~> 0.13.1'
 end
 
 group :test do
@@ -50,6 +51,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+ 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
