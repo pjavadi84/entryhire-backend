@@ -11,7 +11,6 @@ module V1
         # end
 
         def create 
-            # binding.pry
             # This wrap up the partner object that comes from our frontend application
             partner = Partner.find_by(email: params["partner"]["email"])
             .try(:authenticate, params["partner"]["password"])
