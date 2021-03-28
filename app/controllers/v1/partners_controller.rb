@@ -1,4 +1,4 @@
-module v1
+module V1
     class PartnersController < ApplicationController
     end
 end

@@ -43,6 +43,8 @@ group :development do
   gem 'bcrypt', '~> 3.1', '>= 3.1.16'
   gem 'rack-cors', :require => 'rack/cors'
   gem 'pry', '~> 0.13.1'
+  gem 'active_model_serializers'
+
 end
 
 group :test do

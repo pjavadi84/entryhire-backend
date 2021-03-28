@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       resources :projects
     end
 
-    resources :registration, only: [:create]
+    resources :registrations, only: [:create]
   
     
     root to: "static#home"
